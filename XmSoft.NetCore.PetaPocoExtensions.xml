@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XmSoft.NetCore.PetaPocoExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.IPetaPocoDBContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContext">
+            <summary>
+            PetaPoco DBContext
+            </summary>
+        </member>
+        <member name="M:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContext.#ctor(Microsoft.Extensions.Options.IOptions{XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="optionsAccessor"></param>
+        </member>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfiguration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfiguration.#ctor(Microsoft.Extensions.Options.IOptions{XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfigurationOptions})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="optionsAccessor"></param>
+        </member>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions.Microsoft#Extensions#Options#IOptions{XmSoft#NetCore#PetaPocoExtensions#PetaPocoDBContextOptions}#Value">
+            <summary>The default configured TOptions instance</summary>
+        </member>
+        <member name="P:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions.ConnectionString">
+            <summary>
+            数据库连接
+            </summary>
+        </member>
+        <member name="P:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions.ProviderName">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfigurationOptions">
+            <summary>
+            PetaPoco DBContext Configuration
+            </summary>
+        </member>
+        <member name="P:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfigurationOptions.Microsoft#Extensions#Options#IOptions{XmSoft#NetCore#PetaPocoExtensions#PetaPocoDBContextConfigurationOptions}#Value">
+            <summary>The default configured TOptions instance</summary>
+        </member>
+        <member name="P:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfigurationOptions.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextServiceCollectionExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextServiceCollectionExtensions.AddPetaPoco``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextOptions})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="services"></param>
+            <param name="setupAction"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextServiceCollectionExtensions.AddPetaPocoConfiguration``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{XmSoft.NetCore.PetaPocoExtensions.PetaPocoDBContextConfigurationOptions})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="services"></param>
+            <param name="setupAction"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
